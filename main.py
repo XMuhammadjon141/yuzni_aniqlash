@@ -112,15 +112,15 @@ def add_user_window():
     capture_button = tk.Button(add_user_win, text="Suratga olish", command=open_camera)
     capture_button.pack(pady=10)
 
-    upload_button = tk.Button(add_user_win, text="Suratni yuklash", command=upload_photo)
-    upload_button.pack(pady=10)
+    upload_button = tk.Button(add_user_y=10)
 
 # Tkinter oynasini yaratish
 root = tk.Tk()
 root.title('Yuzni aniqlash')
 root.geometry('400x400')
 
-face_recognition_button = tk.Button(root, text="Yuzni aniqlash", command=run_face_recognition)
+face_recognition_button = tk.Button(roowin, text="Suratni yuklash", command=upload_photo)
+    upload_button.pack(padt, text="Yuzni aniqlash", command=run_face_recognition)
 face_recognition_button.pack(pady=10)
 
 stop_button = tk.Button(root, text="To'xtatish", command=stop_face_recognition)
